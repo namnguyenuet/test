@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/e"
+            android:id="@+id/anh"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="0dp"
+            android:text="
+  Trung tâm tiếng anh giúp cho các học viên tìm kiếm được
+những lớp học phù hợp với khả năng của bản thân.
+
+
+    HANA ENGLISH CENTER XIN CHÀO "
+            android:textColor="#F50F0F"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

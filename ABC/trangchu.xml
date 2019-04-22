@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20789B"
+    android:id="@+id/home">
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/e"/>
+    <ScrollView
+        android:layout_below="@+id/imgBanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnLog"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/bg_button"
+                android:text="Đăng Nhập"
+                android:textSize="50dp"/>
+            <Button
+                android:id="@+id/btnSign"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/bg_button"
+                android:layout_below="@+id/btnLog"
+                android:text="Đăng Ký"
+                android:textSize="50dp"/>
+            <Button
+                android:id="@+id/btnGT"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/bg_button"
+                android:layout_below="@+id/btnSign"
+                android:text="GIỚI THIỆU"
+                android:textSize="50dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6183B77"
+    android:id="@+id/danghap"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layoutDataLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="ĐĂNG NHẬP"
+            android:textSize="30sp"
+            android:textColor="#B1EE08"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <EditText
+            android:id="@+id/edttk"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/tvLogin"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_account"
+            android:hint="Nhap ten..."
+            android:paddingLeft="15dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+        <EditText
+            android:id="@+id/edtmk"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/edttk"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_account"
+            android:hint="Nhap mat khau..."
+            android:paddingLeft="15dp"
+            android:password="true"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutDataLogin"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDangnhap"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_button"
+            android:text="ĐĂNG NHẬP"
+            android:textSize="23sp"
+            android:textColor="#065696"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/btnDK"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bg_button"
+            android:text="ĐĂNG KÝ"
+            android:textSize="23sp"
+            android:textColor="#065696"
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

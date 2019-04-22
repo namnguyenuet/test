@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#266CE4"
+    android:clickable="true"
+    android:id="@+id/dangky"
+    >
+
+    <RelativeLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#58CF1A"
+        >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_account"
+            android:padding="12dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutDataSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginTop="7dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvSignup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="ĐĂNG KÝ"
+            android:textColor="#17EE08"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <EditText
+            android:id="@+id/tk"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/tvSignup"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_account"
+            android:hint="Nhap ten..."
+            android:paddingLeft="15dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/dkmk"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/tvSignup"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_account"
+            android:hint="Nhap mat khau..."
+            android:paddingLeft="15dp"
+            android:password="true"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/cfmk"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/dkmk"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_account"
+            android:hint="Nhap xac nhan mat khau..."
+            android:paddingLeft="15dp"
+            android:password="true"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/sdt"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/tvLogin"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="325dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_account"
+            android:hint="Nhap số điện thoại..."
+            android:paddingLeft="15dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/namsinh"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/edttk"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_account"
+            android:hint="Nhap nam sinh..."
+            android:paddingLeft="15dp"
+
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namsinh"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtn_GV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Giảng viên"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+            <RadioButton
+                android:id="@+id/rbtn_HS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Học sinh"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+        </RadioGroup>
+    </RelativeLayout>
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutDataSignup"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></RelativeLayout>
+        <Button
+            android:id="@+id/btnDangky"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bg_button"
+            android:text="ĐĂNG KÝ"
+            android:textColor="#065696"
+            android:textSize="23sp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
